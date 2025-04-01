@@ -1,0 +1,67 @@
+{
+  "homepage": "https://deklaracja.ozzip.pl",
+  "name": "form-ip-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@mui/icons-material": "^5.14.9",
+    "@mui/lab": "^5.0.0-alpha.144",
+    "@mui/material": "^5.14.9",
+    "@mui/styled-engine-sc": "^5.12.0",
+    "@mui/x-data-grid": "^6.10.1",
+    "formik": "^2.4.2",
+    "million": "^3.0.6",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-google-recaptcha": "^3.1.0",
+    "react-router-dom": "^6.14.2",
+    "react-scripts": "5.0.1",
+    "styled-components": "^5.3.11",
+    "typescript": "^4.9.5",
+    "uuid": "^9.0.0",
+    "yup": "^1.2.0",
+    "zustand": "^4.5.1"
+  },
+  "scripts": {
+    "start": "craco start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@craco/craco": "^7.1.0",
+    "@craco/types": "^7.1.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.1.0",
+    "@testing-library/user-event": "^14.5.2",
+    "@types/jest": "^29.5.14",
+    "@types/material-ui": "^0.21.12",
+    "@types/node": "^16.18.38",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@types/react-google-recaptcha": "^2.1.5",
+    "@types/uuid": "^9.0.2",
+    "gh-pages": "^5.0.0"
+  }
+}

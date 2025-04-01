@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/579.de41da3f.chunk.js","mappings":"mIAIA,UAJoB,WAClB,OAAOA,EAAAA,EAAAA,KAAA,OAAAC,SAAK,WACd,C","sources":["pages/LoadingPage.tsx"],"sourcesContent":["const LoadingPage = () => {\r\n  return <div>loading</div>;\r\n};\r\n\r\nexport default LoadingPage;\r\n"],"names":["_jsx","children"],"sourceRoot":""}
