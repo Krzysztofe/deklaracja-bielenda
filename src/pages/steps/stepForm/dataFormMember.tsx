@@ -3,7 +3,6 @@ export const dataParsonalInputs = [
   { label: "Nazwisko", value: "surname", type: "text" },
   { label: "Telefon", value: "phone", type: "tel" },
   { label: "E-mail", value: "email", type: "email" },
-  { label: "Numer RCP", value: "login", type: "text" },
 ];
 
 export const dataAdressInputs = [

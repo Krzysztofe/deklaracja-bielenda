@@ -8,6 +8,7 @@ import HeadingPrimary from "../../hedaingPrimary/HeadingPrimary";
 import { rwd } from "../../../utils/rwd";
 import InputsErrors from "../InputsErrors/InputsErrors";
 import { ModelMember } from "../../../sharedModels/ModelMember";
+import { highlightText } from "../../../utils/highlightText";
 
 type Props = {
   headingText: string;
@@ -27,7 +28,7 @@ const InputsRadio = (props: Props) => {
         <RadioGroup
           name={props.inputValue}
           value={values[props.inputValue as keyof typeof values]}
-          onChange={e => setFieldValue(props.inputValue, e.target.value)}
+          onChange={(e) => setFieldValue(props.inputValue, e.target.value)}
           onBlur={handleBlur}
           sx={{
             width: rwd("80%", "60%"),
@@ -36,20 +37,20 @@ const InputsRadio = (props: Props) => {
             mt: rwd(4.2, 5.9),
           }}
         >
-          {props.inputsData.map(data => {
+          {props.inputsData.map((data) => {
             return (
               <FormControlLabel
                 key={data}
                 value={data}
                 control={<Radio />}
-                label={data}
+                label={highlightText(data)}
                 sx={{
                   mt: props.membership ? 2 : 0,
                   ml: -1,
                   "& .MuiFormControlLabel-label": {
                     mr: 1,
                     color: "info.dark",
-                    fontSize: theme => theme.typography.fs_16_rg,
+                    fontSize: (theme) => theme.typography.fs_16_rg,
                   },
                 }}
               />

@@ -9,7 +9,7 @@ const HeadingPrimary = (props: Props) => {
   return (
     <Typography
       variant="fs_16_sb"
-      // color={props.color ? props.color : "primary"}
+      color={props.color ? props.color : "primary"}
       style={{ color: props.color || "primary" }}
       component="p"
     >

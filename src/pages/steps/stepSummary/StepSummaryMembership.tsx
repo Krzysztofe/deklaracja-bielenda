@@ -4,6 +4,7 @@ import { useFormikContext } from "formik";
 import { rwd } from "../../../utils/rwd";
 import { ModelMember } from "../../../sharedModels/ModelMember";
 import StepBorderline from "./StepBorderline";
+import { highlightText } from "../../../utils/highlightText";
 
 const CustomTypography = ({
   children,
@@ -42,10 +43,8 @@ const StepSummaryMembership = () => {
           Przynależność do związków zawodowych:&nbsp; &nbsp;&nbsp;
         </CustomTypography>
         <CustomTypography align="left" variant="fs_16_rg">
-          {values.membership}
+          {highlightText(values.membership)}
         </CustomTypography>
-
-      
       </Box>
       <StepBorderline />
     </>

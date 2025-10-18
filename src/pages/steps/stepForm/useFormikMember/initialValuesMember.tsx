@@ -5,7 +5,7 @@ export const initialValues: ModelMember = {
   surname: "",
   phone: "",
   email: "",
-  login: "",
+  RCPnumber: "",
 
   city: "",
   street: "",

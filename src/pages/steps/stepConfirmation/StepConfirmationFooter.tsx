@@ -20,11 +20,11 @@ const texts = [
   { variant: TypographyVariant.FS16SB, text: "KONTAKT:" },
   {
     variant: TypographyVariant.FS16RG,
-    text: "tel. 736-850-536",
+    text: "tel. 665-462-782",
   },
   {
     variant: TypographyVariant.FS16RG,
-    text: "ipamazon@wp.pl",
+    text: "ozzip.bielenda@gmail.com",
   },
   { variant: TypographyVariant.FS16SB, text: "WWW:" },
 
@@ -32,12 +32,6 @@ const texts = [
     variant: TypographyVariant.FS16RG,
     text: "www.ozzip.pl",
     link: "https://ozzip.pl/",
-  },
-  { variant: TypographyVariant.FS16SB, text: "FACEBOOK:" },
-  {
-    variant: TypographyVariant.FS16RG,
-    text: "OZZ Inicjatywa Pracownicza Amazon",
-    link: "https://facebook.com/IPAmazon",
   },
 ];
 

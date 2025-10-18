@@ -13,7 +13,7 @@ const StepFormHeader = () => {
       </Typography>
 
       <HeadingPrimary
-        headingText={"Przekazane dane są wyłącznie do wiadomości OZZIP Bielenda"}
+        headingText={"Przekazane dane są wyłącznie do wiadomości OZZIP Bielenda Group S.A."}
       />
 
       <Typography

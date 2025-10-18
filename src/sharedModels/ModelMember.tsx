@@ -3,7 +3,7 @@ export type ModelMember = {
   surname: string;
   phone: string;
   email: string;
-  login: string;
+  RCPnumber: string;
 
   city: string;
   street: string;

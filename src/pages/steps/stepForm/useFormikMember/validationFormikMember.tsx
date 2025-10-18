@@ -36,7 +36,5 @@ export const validationSchema = yup.object({
 
   workplace: validationWithOther("workplace", "workplaceOther"),
   workplaceOther: validationWithOther("workplace", "workplaceOther"),
-
-  login: validation,
   membership: validation,
 });
